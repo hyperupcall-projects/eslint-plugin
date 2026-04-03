@@ -4,10 +4,10 @@
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hyperupcall-self/eslint-plugin"
+		"url": "https://github.com/hyperupcall-projects/eslint-plugin"
 	},
 	"bugs": {
-		"url": "https://github.com/hyperupcall-self/eslint-plugin/issues"
+		"url": "https://github.com/hyperupcall-projects/eslint-plugin/issues"
 	},
 	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
 	"private": false,
@@ -18,10 +18,10 @@
 		"lint": "hyperupcall-scripts-nodejs lint"
 	},
 	"peerDependencies": {
-		"eslint": ">= 8"
+		"eslint": ">= 9"
 	},
 	"devDependencies": {
-		"@hyperupcall/scripts-nodejs": "0.7.1"
+		"@hyperupcall/scripts-nodejs": "0.9.0"
 	},
 	"markdownlint-cli2": {
 		"extends": "./node_modules/@hyperupcall/markdownlint-config/.markdownlint.json"
